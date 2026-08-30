@@ -5,6 +5,7 @@ export const metadata = {
   title: "Yağmur Çam",
   description: "AI, neuroscience, robotics.",
 };
+
 export default function RootLayout({
    children,
    }: {
@@ -19,7 +20,27 @@ export default function RootLayout({
           <Link href="/writing">Writing</Link>
         </nav>
         {children}
-        </body>
-      </html>   
-    );
+
+        <footer className="mt-24 flex gap-5 text-sm">
+          href="https://github.com/yagmur-cam"
+          className="underline underline-offset-4 hover:text-neutral-500"
+        <a>
+          GitHub
+        </a>
+        
+          href="mailto:yagmurcam026@gmail.com"
+          className="underline underline-offset-4 hover:text-neutral-500"
+        <a>
+          Email
+        </a>
+        
+          href="www.linkedin.com/in/yağmur-çam-2860y00"
+          className="underline underline-offset-4 hover:text-neutral-500"
+        <a>
+          LinkedIn
+      </a>
+    </footer>
+    </body>
+  </html>
+  );
 }
