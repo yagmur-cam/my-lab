@@ -1,8 +1,10 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
-
+export const metadata = {
+  title: "Yağmur Çam",
+  description: "AI, neuroscience, robotics.",
+};
 export default function RootLayout({
    children,
    }: {
@@ -16,7 +18,7 @@ export default function RootLayout({
           <Link href="/projects">Projects</Link>
           <Link href="/writing">Writing</Link>
         </nav>
-        {chidren}
+        {children}
         </body>
       </html>   
     );
