@@ -10,7 +10,7 @@ export default function Home() {
         </p>
         <p className="mt-8 max-w-xl leading-relaxed">
            Applied Computer Science and AI student at Sapienza, Rome.
-        I&apos;explore intelligence at the intersection of artificial intelligence, 
+        I explore intelligence at the intersection of artificial intelligence, 
         neuroscience, robotics and mathematics.
         </p>
       </div>
