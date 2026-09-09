@@ -22,21 +22,18 @@ export default function RootLayout({
         {children}
 
         <footer className="mt-24 flex gap-5 text-sm">
-          href="https://github.com/yagmur-cam"
-          className="underline underline-offset-4 hover:text-neutral-500"
-        <a>
+          <a href="https://github.com/yagmur-cam"
+          className="underline underline-offset-4 hover:text-neutral-500">
           GitHub
         </a>
         
-          href="mailto:yagmurcam026@gmail.com"
-          className="underline underline-offset-4 hover:text-neutral-500"
-        <a>
+          <a href="mailto:yagmurcam026@gmail.com"
+          className="underline underline-offset-4 hover:text-neutral-500">
           Email
         </a>
         
-          href="www.linkedin.com/in/yağmur-çam-2860y00"
-          className="underline underline-offset-4 hover:text-neutral-500"
-        <a>
+          <a href="www.linkedin.com/in/yağmur-çam-2860y00"
+          className="underline underline-offset-4 hover:text-neutral-500">
           LinkedIn
       </a>
     </footer>
